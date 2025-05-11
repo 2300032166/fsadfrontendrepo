@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Profile.css";
+import "./profile.css";
 import profilePic from "../assets/profile.jpeg";
 
 const Profile = () => {
