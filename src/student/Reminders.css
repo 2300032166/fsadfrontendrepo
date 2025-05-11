@@ -1,0 +1,98 @@
+.reminder-page {
+    padding: 30px;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:200px
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .reminder-list {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .reminder-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .reminder-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .reminder-item.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+  }
+  
+  .reminder-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reminder-course {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .reminder-task {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .reminder-due {
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    accent-color: #28a745;
+    transition: transform 0.2s;
+  }
+  
+  .checkbox-container input[type="checkbox"]:checked {
+    transform: scale(1.2);
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .due-date {
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  .reminder-item.completed .reminder-course,
+  .reminder-item.completed .reminder-task {
+    color: #28a745;
+  }
+  
+  .no-reminders-message {
+    font-size: 1.5rem;
+    color: #888;
+    text-align: center;
+    margin-top: 50px;
+  }
+  

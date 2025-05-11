@@ -1,0 +1,183 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f4f7fb;  /* Light gray background */
+    color: #2c3e50; /* Dark text color */
+    
+  }
+  
+  .home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  /* Welcome Section with Profile Image and Text */
+  .welcome-section {
+    margin-top:100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;  /* Space between the image and the text */
+    margin-bottom: 20px;
+    
+  }
+  
+  .profile-image {
+    width: 70px;  /* Adjust size of profile image */
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+  }
+  
+  .welcome-text {
+    font-size: 28px; /* Adjust text size */
+    font-weight: bold;
+    color: #db3434; /* Red color for the welcome message */
+    
+  }
+  
+  /* Main Content */
+  .content-wrapper {
+    display: flex;
+    gap: 30px;
+  }
+  
+  /* Left Section: Enrolled Courses */
+  .left-section {
+    flex: 2;
+  }
+  
+  .course-header {
+    background-color: #2c3e50; /* Dark blue */
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 25px;
+  }
+  
+  .course-card {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px); /* Elevates course card */
+  }
+  
+  .course-title {
+    margin: 0;
+    padding-bottom: 8px;
+  }
+  
+  .course-link {
+    color: red;
+    background: none;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .course-link:hover {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Right Section (Personal Notes) */
+  .right-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notes-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #003366;
+  }
+  
+  .note-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .note-input {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccd1d9;
+    border-radius: 6px;
+  }
+  
+  .add-note-button {
+    background-color: red;
+    color: #ffffff;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-note-button:hover {
+    background-color: #003366;
+  }
+  
+  .notes-list {
+    margin-top: 15px;
+  }
+  
+  .note-card {
+    background-color: #e0e6ed;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .note-text {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .note-date {
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .delete-note-button {
+    background-color: #c0392b;
+    color: #ffffff;
+    padding: 6px 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-note-button:hover {
+    background-color: #a93226;
+  }
+  

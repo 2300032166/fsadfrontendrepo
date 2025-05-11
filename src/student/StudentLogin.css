@@ -1,0 +1,131 @@
+/* StudentLogin.css */
+
+/* Background image and general styling */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* Aligns the content to the right side */
+  align-items: center;
+  background-image: url('../assets/Studentbg.jpg'); /* Your background image */
+  background-size: cover;   /* Ensures the image covers the container */
+  background-position: top center;  /* Aligns the background image to the top */
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures proper padding calculation */
+  background-attachment: fixed; /* Keeps background fixed during scrolling */
+}
+
+/* Form container styling */
+.login-form-container {
+  background: rgba(255, 255, 255, 0.9); /* Slightly more transparent white */
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border: 2px solid red; /* Light pink border */
+  margin-right: 20px; /* Ensures form stays away from the right edge */
+}
+
+/* Heading */
+.login-form-container h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: red; /* Pink color for the heading */
+  font-weight: 600;
+}
+
+/* Form input fields */
+.login-form-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid red; /* Light pink border for input fields */
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus state for input fields */
+.login-form-container input:focus {
+  outline: none;
+  border-color: red; /* Darker pink shade on focus */
+}
+
+/* Submit button */
+.login-form-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  background-color: red; /* Pink background */
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on button */
+.login-form-container button:hover {
+  background-color: red; /* Darker pink shade for hover */
+}
+
+/* Lost password link */
+.lost-password {
+  margin-top: 15px;
+}
+
+.lost-password a {
+  color: red; /* Pink color for the link */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.lost-password a:hover {
+  text-decoration: underline;
+  color: red; /* Darker pink shade on hover */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .login-form-container {
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .login-form-container h2 {
+    font-size: 22px;
+  }
+
+  .login-form-container input {
+    font-size: 14px;
+  }
+
+  .login-form-container button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-form-container {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .login-form-container h2 {
+    font-size: 20px;
+  }
+
+  .login-form-container input {
+    font-size: 14px;
+  }
+
+  .login-form-container button {
+    font-size: 14px;
+  }
+}

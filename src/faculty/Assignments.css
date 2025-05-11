@@ -1,0 +1,85 @@
+.assignments-container {
+     margin-top:200px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.assignments-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.assignments-header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.assignments-header p {
+    font-size: 16px;
+    color: #666;
+}
+
+.assignments-list {
+    margin-bottom: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.assignments-list h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.assignments-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.assignments-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.assignments-list li:last-child {
+    border-bottom: none;
+}
+
+.submissions-section {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.submissions-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.submissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.submissions-table th, .submissions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.submissions-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.submissions-table input {
+    width: 90%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

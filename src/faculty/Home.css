@@ -1,0 +1,81 @@
+/* Faculty Home Container */
+.faculty-home {
+  margin-top:200px;
+  padding: 40px 20px;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e3e6f3);
+  min-height: 100vh;
+}
+
+/* Welcome Section */
+.welcome-section {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.welcome-section h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Dashboard Cards */
+.dashboard-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual Card */
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 240px;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Icons */
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Notification & Help Sections */
+.notifications, .help-support {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-icon {
+  font-size: 25px;
+  color: #ff5733;
+}
+

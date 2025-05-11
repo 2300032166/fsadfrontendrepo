@@ -1,0 +1,106 @@
+.help-container {
+     margin-top:200px;
+     margin-left:13%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.help-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.help-header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.help-header p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.faq-section h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.faq-item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    font-size: 16px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+}
+
+.faq-answer {
+    font-size: 14px;
+    color: #555;
+    padding: 10px;
+}
+
+/* Support Section */
+.support-options {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.support-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.support-card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.support-icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.support-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.support-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.support-button:hover {
+    background-color: #0056b3;
+}

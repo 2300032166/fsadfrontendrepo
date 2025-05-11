@@ -1,0 +1,74 @@
+/* Full-Page Layout */
+.lms-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Content Wrapper */
+.lms-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+/* Login Cards Container */
+.login-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Individual Login Card */
+.login-card {
+  width: 250px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Title */
+.login-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Card Description */
+.login-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive Design: Adjustments for Mobile and Small Screens */
+@media (max-width: 768px) {
+  .login-cards {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    gap: 10px;
+  }
+
+  .login-card {
+    width: 90%; /* Make the cards larger on mobile */
+    padding: 30px;
+  }
+}

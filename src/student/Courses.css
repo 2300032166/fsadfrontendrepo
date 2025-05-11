@@ -1,0 +1,114 @@
+/* Selected Course Display */
+.selected-course {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.selected-course h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.selected-course p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Main Courses Page Styling */
+.courses-page {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto 20px; /* Removed margin-top to eliminate the gap */
+  text-align: center;
+  margin-top:210px;
+}
+
+/* Header Styling - Removed Search Bar */
+.courses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ddd;
+  padding: 12px;
+  border-radius: 5px;
+  margin-top: 20px; /* Add space between navbar and header */
+}
+
+.courses-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Courses Grid - Fixed Flexbox */
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Reduced margin */
+  margin-top:50px;
+}
+
+
+/* Course Card */
+.course-cards {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 180px;  /* Fixed width */
+}
+
+/* Progress Circle */
+.progress-circle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+}
+
+.progress-circle svg {
+  transform: rotate(-90deg);
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.course-btn {
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.start {
+  background-color: red;
+}
+
+.continue {
+  background-color: #ff4d4d;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .courses-container {
+    justify-content: center; /* Center align for small screens */
+  }
+}

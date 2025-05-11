@@ -1,0 +1,53 @@
+/* Ensure styles only apply to the Academic Records page */
+.academic-records-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background: linear-gradient(to right, #f8f9fa, #f3f4f4);
+  min-height: calc(100vh - 60px);
+  margin-top: 200px;
+}
+
+/* Apply styles only to records container inside this page */
+.academic-records-page .records-container {
+  width: 100%;
+  max-width: 850px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+}
+
+/* Remove underline from links inside AcademicRecords only */
+.academic-records-page .records-list a {
+  text-decoration: none;
+}
+
+/* Ensure course-card styling doesn't affect other pages */
+.academic-records-page .course-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #fdfbfb, #f1f3f5);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-left: 5px solid #007bff;
+}
+
+/* Keep styling limited to Academic Records */
+.academic-records-page .course-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+.academic-records-page .course-marks {
+  font-size: 16px;
+  font-weight: 500;
+  color: #007bff;
+}

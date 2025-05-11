@@ -1,0 +1,37 @@
+.course-grades-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .course-info {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .grades-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .grade-card {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grade-card h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .grade-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  

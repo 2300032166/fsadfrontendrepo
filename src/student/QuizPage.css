@@ -1,0 +1,156 @@
+.quiz-container {
+  margin-top:200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .quiz-left {
+    width: 70%;
+  }
+  
+  .quiz-right {
+    width: 28%;
+  }
+  
+  h2 {
+    font-size: 2rem; /* Adjust for larger text */
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.25rem; /* Slightly smaller than h2 */
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .option-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #e0e0e0; /* Light gray color */
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem; /* Standard size for buttons */
+  }
+  
+  .option-btn:hover {
+    background-color: #c6c6c6; /* Slightly darker gray on hover */
+  }
+  
+  .score-section {
+    text-align: center;
+  }
+  
+  .back-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Light blue color */
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1rem; /* Slightly larger text for the back button */
+  }
+  
+  .back-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .quiz-right h3 {
+    font-size: 1.25rem; /* Slightly smaller heading for question navigation */
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .question-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Display 5 buttons per row */
+    gap: 10px;
+  }
+  
+  .question-btn {
+    padding: 12px 20px;
+    background-color: #e7f1d2; /* Light background color */
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem; /* Standard size for navigation buttons */
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .question-btn:hover {
+    background-color: #e0e0e0; /* Light gray hover effect */
+  }
+  
+  .question-btn.active {
+    background-color: #e7f1d2; /* Light background color for active question */
+    color: rgb(25, 24, 24);
+    border-color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .quiz-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .quiz-left {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .quiz-right {
+      width: 100%;
+    }
+  
+    .question-list {
+      grid-template-columns: repeat(4, 1fr); /* Adjust to 4 per row for smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.8rem; /* Slightly smaller heading for smaller screens */
+    }
+  
+    h3 {
+      font-size: 1.1rem; /* Slightly smaller for better fit */
+    }
+  
+    .option-btn {
+      font-size: 0.9rem; /* Smaller text for mobile view */
+    }
+  
+    .back-btn {
+      font-size: 1rem; /* Back button size adjusted */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .question-list {
+      grid-template-columns: repeat(3, 1fr); /* Adjust to 3 per row for very small screens */
+    }
+  
+    h2 {
+      font-size: 1.5rem; /* Even smaller for very small screens */
+    }
+  
+    h3 {
+      font-size: 1rem; /* Smaller font for question navigation */
+    }
+  
+    .option-btn {
+      font-size: 0.9rem; /* Adjust to better fit small screens */
+    }
+  
+    .back-btn {
+      font-size: 0.9rem; /* Back button smaller for mobile view */
+    }
+  }
+  
